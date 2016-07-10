@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="a1F-Oe-Ba7">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--FindMyToiToi - Menu-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="FindMyToiToi" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleAspectFit" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ca3-4x-Dji">
+                                <rect key="frame" x="172" y="131" width="212" height="39"/>
+                                <color key="backgroundColor" red="0.20518629839999999" green="0.35168269229999999" blue="0.1827195959" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="39" id="jVV-zs-6Bj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <state key="normal" title="Bewerte ToiToi">
+                                    <color key="titleColor" red="0.50196081400000003" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="hsu-vQ-k1C" kind="show" identifier="bewertung" id="96z-Au-Okw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nx6-Sx-QZE">
+                                <rect key="frame" x="172" y="183" width="212" height="39"/>
+                                <color key="backgroundColor" red="0.20518629839999999" green="0.35168269229999999" blue="0.1827195959" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <state key="normal" title="Add ToiToi">
+                                    <color key="titleColor" red="0.50196081400000003" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="h5k-1P-akw" kind="show" identifier="toiToiDetail" id="MLh-td-VUR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nQ9-jP-nEc">
+                                <rect key="frame" x="172" y="78" width="212" height="38"/>
+                                <color key="backgroundColor" red="0.20518629839823488" green="0.35168269230769234" blue="0.18271959587878031" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <state key="normal" title="Find ToiToi">
+                                    <color key="titleColor" red="0.50196081400000003" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="yez-7G-9Vw" kind="show" identifier="findToiToi" id="4DS-oE-iGv"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.42033462961500123" green="0.72043998730488312" blue="0.37431044010573433" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="ca3-4x-Dji" firstAttribute="top" secondItem="nQ9-jP-nEc" secondAttribute="bottom" constant="15" id="0tX-AL-STi"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ca3-4x-Dji" secondAttribute="trailing" id="C2I-Pr-wut"/>
+                            <constraint firstItem="ca3-4x-Dji" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="C8d-rm-4UU"/>
+                            <constraint firstItem="nx6-Sx-QZE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="RC3-Zt-Hom"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="nQ9-jP-nEc" secondAttribute="trailing" id="UQo-zC-eTR"/>
+                            <constraint firstItem="nQ9-jP-nEc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="YjU-Ep-g1F"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="nx6-Sx-QZE" secondAttribute="trailing" id="iPl-IW-l8q"/>
+                            <constraint firstItem="nx6-Sx-QZE" firstAttribute="top" secondItem="ca3-4x-Dji" secondAttribute="bottom" constant="13" id="q3y-O4-wW3"/>
+                            <constraint firstItem="ca3-4x-Dji" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="131" id="wnP-Sh-cIa"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="FindMyToiToi - Menu" id="6c9-FK-PSR"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1538" y="524"/>
+        </scene>
+        <!--Toi Toi Table View Controller-->
+        <scene sceneID="NyR-5a-DOT">
+            <objects>
+                <tableViewController id="hsu-vQ-k1C" customClass="ToiToiTableViewController" customModule="FindMyToiToi" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="90" sectionHeaderHeight="22" sectionFooterHeight="22" id="amZ-KJ-Zvm">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="ToiToiTableViewCell" rowHeight="90" id="osP-rW-3cO" customClass="ToiToiTableViewCell" customModule="FindMyToiToi" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="86" width="600" height="90"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="osP-rW-3cO" id="Ozp-8P-CXh">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="89.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="defaultPhoto" translatesAutoresizingMaskIntoConstraints="NO" id="ecH-jd-zSg">
+                                            <rect key="frame" x="0.0" y="-1" width="95" height="90"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Bp-TC-avl">
+                                            <rect key="frame" x="103" y="8" width="489" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <view userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hX4-qt-Wvo" customClass="RatingControl" customModule="FindMyToiToi" customModuleProvider="target">
+                                            <rect key="frame" x="103" y="37" width="240" height="44"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </view>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="nameLable" destination="0Bp-TC-avl" id="unl-q6-3vy"/>
+                                    <outlet property="photoImageView" destination="ecH-jd-zSg" id="A7G-TB-erZ"/>
+                                    <outlet property="ratingControl" destination="hX4-qt-Wvo" id="FJK-nv-fbm"/>
+                                    <segue destination="Jzh-Wn-YgK" kind="show" id="DBB-CG-iBh"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="hsu-vQ-k1C" id="CKe-oV-j07"/>
+                            <outlet property="delegate" destination="hsu-vQ-k1C" id="e0R-QN-iUg"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jh4-fD-ifN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2391" y="654"/>
+        </scene>
+        <!--Find Toi Toi Controller-->
+        <scene sceneID="e9z-H1-d1e">
+            <objects>
+                <viewController id="yez-7G-9Vw" customClass="FindToiToiController" customModule="FindMyToiToi" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="HT5-Er-n3d"/>
+                        <viewControllerLayoutGuide type="bottom" id="vha-Aa-Vv0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hwF-MR-1Q5">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="3Rw-EE-2wF">
+                                <rect key="frame" x="133" y="206" width="240" height="128"/>
+                            </mapView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fv5-7y-xeT">
+                                <rect key="frame" x="248" y="504" width="83" height="44"/>
+                                <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Stop Navigation">
+                                    <color key="titleColor" red="0.0" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="stopingNav:" destination="yez-7G-9Vw" eventType="touchUpInside" id="g30-hz-B5p"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.42033462960000001" green="0.72043998730000003" blue="0.37431044009999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="3Rw-EE-2wF" secondAttribute="trailing" id="9T2-Rj-bix"/>
+                            <constraint firstItem="3Rw-EE-2wF" firstAttribute="top" secondItem="HT5-Er-n3d" secondAttribute="bottom" id="QWP-9d-fHD"/>
+                            <constraint firstItem="Fv5-7y-xeT" firstAttribute="leading" secondItem="hwF-MR-1Q5" secondAttribute="leadingMargin" id="k6i-2a-5qe"/>
+                            <constraint firstItem="vha-Aa-Vv0" firstAttribute="top" secondItem="Fv5-7y-xeT" secondAttribute="bottom" id="leo-xU-Aj7"/>
+                            <constraint firstItem="3Rw-EE-2wF" firstAttribute="leading" secondItem="hwF-MR-1Q5" secondAttribute="leading" id="mu1-xr-2Hl"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Fv5-7y-xeT" secondAttribute="trailing" id="oBo-Wz-MiI"/>
+                            <constraint firstItem="vha-Aa-Vv0" firstAttribute="top" secondItem="3Rw-EE-2wF" secondAttribute="bottom" id="qc5-Vh-RLh"/>
+                        </constraints>
+                    </view>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="map" destination="3Rw-EE-2wF" id="ZIg-IH-6y0"/>
+                        <outlet property="stopNavBtn" destination="Fv5-7y-xeT" id="tkH-le-Aeq"/>
+                        <segue destination="Jzh-Wn-YgK" kind="show" identifier="bewerter" id="BUt-2C-BMl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dwc-ic-tvL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2391" y="-28"/>
+        </scene>
+        <!--Bewertungs Controller-->
+        <scene sceneID="VsY-1I-Dfo">
+            <objects>
+                <viewController id="Jzh-Wn-YgK" customClass="BewertungsController" customModule="FindMyToiToi" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9Xb-2o-1NF"/>
+                        <viewControllerLayoutGuide type="bottom" id="qrU-He-taV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="CRO-rY-yJv">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="YrG-p3-STb">
+                                <rect key="frame" x="20" y="64" width="560" height="536"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dn9-iG-LQc">
+                                        <rect key="frame" x="244" y="0.0" width="73" height="23"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <color key="textColor" red="0.20518629839999999" green="0.35168269229999999" blue="0.1827195959" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" placeholderIntrinsicWidth="95" placeholderIntrinsicHeight="26" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kmp-qh-vfI">
+                                        <rect key="frame" x="233" y="23" width="95" height="26"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <color key="textColor" red="0.50196081400000003" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Ort:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V0g-ql-akF">
+                                        <rect key="frame" x="259" y="49" width="42" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <color key="textColor" red="0.20518629839999999" green="0.35168269229999999" blue="0.1827195959" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" placeholderIntrinsicWidth="59" placeholderIntrinsicHeight="33" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="viA-VF-mnm">
+                                        <rect key="frame" x="251" y="79" width="59" height="33"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <color key="textColor" red="0.50196081400000003" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" placeholderIntrinsicWidth="320" placeholderIntrinsicHeight="320" translatesAutoresizingMaskIntoConstraints="NO" id="meF-Uu-mTc">
+                                        <rect key="frame" x="120" y="112" width="320" height="320"/>
+                                    </imageView>
+                                    <view contentMode="scaleToFill" ambiguous="YES" placeholderIntrinsicWidth="240" placeholderIntrinsicHeight="44" translatesAutoresizingMaskIntoConstraints="NO" id="7Ia-i3-kKb" customClass="RatingControl" customModule="FindMyToiToi" customModuleProvider="target">
+                                        <rect key="frame" x="160" y="432" width="240" height="44"/>
+                                        <color key="backgroundColor" red="0.42033462960000001" green="0.72043998730000003" blue="0.37431044009999997" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" placeholderIntrinsicWidth="238" placeholderIntrinsicHeight="30" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="87Z-Kp-ecK">
+                                        <rect key="frame" x="161" y="476" width="238" height="30"/>
+                                        <color key="backgroundColor" red="0.20518629839999999" green="0.35168269229999999" blue="0.1827195959" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                        <color key="tintColor" red="0.50196081400000003" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="Save"/>
+                                        <connections>
+                                            <action selector="saveNewToiToi:" destination="h5k-1P-akw" eventType="touchUpInside" id="2rc-7W-x7G"/>
+                                            <action selector="saveRating:" destination="Jzh-Wn-YgK" eventType="touchUpInside" id="hqd-18-B8X"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wsz-bF-aKk">
+                                        <rect key="frame" x="257" y="506" width="46" height="30"/>
+                                        <state key="normal" title="Button"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.42033462960000001" green="0.72043998730000003" blue="0.37431044009999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="YrG-p3-STb" secondAttribute="trailing" id="Cbv-VY-iP8"/>
+                            <constraint firstItem="YrG-p3-STb" firstAttribute="top" secondItem="9Xb-2o-1NF" secondAttribute="bottom" id="GpS-AR-CTR"/>
+                            <constraint firstItem="YrG-p3-STb" firstAttribute="leading" secondItem="CRO-rY-yJv" secondAttribute="leadingMargin" id="PrQ-8g-dUa"/>
+                            <constraint firstItem="YrG-p3-STb" firstAttribute="top" secondItem="9Xb-2o-1NF" secondAttribute="bottom" id="l1L-7R-bHc"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="YrG-p3-STb" secondAttribute="bottom" id="zJ6-4f-HOT"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="nameTF" destination="kmp-qh-vfI" id="W0X-Dj-xkN"/>
+                        <outlet property="ortTF" destination="viA-VF-mnm" id="TJg-zL-2Tp"/>
+                        <outlet property="ratingControl" destination="7Ia-i3-kKb" id="LId-NF-foq"/>
+                        <outlet property="toitoiImg" destination="meF-Uu-mTc" id="tai-xb-tae"/>
+                        <segue destination="yez-7G-9Vw" kind="show" identifier="saveRating" id="8Xy-ls-DfN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6hA-kE-9J5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3398" y="-92"/>
+        </scene>
+        <!--Toi Toi Detail Controller-->
+        <scene sceneID="E4Y-ak-la5">
+            <objects>
+                <viewController id="h5k-1P-akw" customClass="ToiToiDetailController" customModule="FindMyToiToi" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="VrG-QV-bdR"/>
+                        <viewControllerLayoutGuide type="bottom" id="KpR-k4-dFs"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="n0a-t9-pcR">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="crU-MZ-duh">
+                                <rect key="frame" x="20" y="92" width="560" height="488"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Straßenname" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OOb-1h-tRX">
+                                        <rect key="frame" x="197" y="0.0" width="168" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                        <color key="textColor" red="0.50196081400000003" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Straßennamen" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5jz-DH-x2g">
+                                        <rect key="frame" x="188" y="34" width="185" height="30"/>
+                                        <color key="backgroundColor" red="0.20518629839999999" green="0.35168269229999999" blue="0.1827195959" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" placeholderIntrinsicWidth="320" placeholderIntrinsicHeight="320" image="defaultPhoto" translatesAutoresizingMaskIntoConstraints="NO" id="Y2P-BI-j5w">
+                                        <rect key="frame" x="120" y="64" width="320" height="320"/>
+                                        <gestureRecognizers/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="Y2P-BI-j5w" secondAttribute="height" multiplier="1:1" id="ufb-Vg-Oz3"/>
+                                        </constraints>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AIh-UB-3zE">
+                                        <rect key="frame" x="252" y="384" width="57" height="30"/>
+                                        <color key="backgroundColor" red="0.20518629839999999" green="0.35168269229999999" blue="0.1827195959" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="Add Img">
+                                            <color key="titleColor" red="0.50196081400000003" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="touchAttacke:" destination="h5k-1P-akw" eventType="touchUpInside" id="hKm-eX-DnB"/>
+                                        </connections>
+                                    </button>
+                                    <view contentMode="scaleToFill" misplaced="YES" placeholderIntrinsicWidth="240" placeholderIntrinsicHeight="44" translatesAutoresizingMaskIntoConstraints="NO" id="cgJ-lK-tlj" customClass="RatingControl" customModule="FindMyToiToi" customModuleProvider="target">
+                                        <rect key="frame" x="160" y="414" width="240" height="44"/>
+                                        <color key="backgroundColor" red="0.42033462961500123" green="0.72043998730488312" blue="0.37431044010573433" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" placeholderIntrinsicWidth="238" placeholderIntrinsicHeight="30" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="27J-nK-UHp">
+                                        <rect key="frame" x="161" y="458" width="238" height="30"/>
+                                        <color key="backgroundColor" red="0.20518629839999999" green="0.35168269229999999" blue="0.1827195959" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                        <color key="tintColor" red="0.50196081400000003" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="Save"/>
+                                        <connections>
+                                            <action selector="saveNewToiToi:" destination="h5k-1P-akw" eventType="touchUpInside" id="17b-1N-hZ7"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="5jz-DH-x2g" firstAttribute="top" secondItem="OOb-1h-tRX" secondAttribute="bottom" constant="5" id="YNI-S2-OQs"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="YNI-S2-OQs"/>
+                                    </mask>
+                                </variation>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.41960784313725491" green="0.72156862745098038" blue="0.37254901960784315" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="crU-MZ-duh" secondAttribute="trailing" id="cee-ZI-XQm"/>
+                            <constraint firstItem="crU-MZ-duh" firstAttribute="leading" secondItem="n0a-t9-pcR" secondAttribute="leadingMargin" id="cvG-Dk-ZJu"/>
+                            <constraint firstItem="crU-MZ-duh" firstAttribute="top" secondItem="VrG-QV-bdR" secondAttribute="bottom" id="kW9-Sv-K76"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="nameTextField" destination="5jz-DH-x2g" id="YNP-xF-V3E"/>
+                        <outlet property="photoImageView" destination="Y2P-BI-j5w" id="LuM-aD-nBr"/>
+                        <outlet property="ratingControl" destination="cgJ-lK-tlj" id="mLh-8e-bq7"/>
+                        <outlet property="toitoiName" destination="OOb-1h-tRX" id="J4y-OH-wvU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gF8-rl-FvQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1997" y="1371"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="z1n-nR-1vT">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="a1F-Oe-Ba7" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="elj-Y2-xBN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Ky7-Sb-vS7"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jzu-T0-hhy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="726" y="524"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="defaultPhoto" width="540" height="540"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="4DS-oE-iGv"/>
+        <segue reference="DBB-CG-iBh"/>
+    </inferredMetricsTieBreakers>
+    <color key="tintColor" red="0.42033462960000001" green="0.72043998730000003" blue="0.37431044009999997" alpha="1" colorSpace="calibratedRGB"/>
+</document>

@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFEF4AF31D26A78400874FD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEF4AF21D26A78400874FD2 /* AppDelegate.swift */; };
+		AFEF4AF51D26A78400874FD2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEF4AF41D26A78400874FD2 /* ViewController.swift */; };
+		AFEF4AF81D26A78400874FD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFEF4AF61D26A78400874FD2 /* Main.storyboard */; };
+		AFEF4AFA1D26A78400874FD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFEF4AF91D26A78400874FD2 /* Assets.xcassets */; };
+		AFEF4AFD1D26A78400874FD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFEF4AFB1D26A78400874FD2 /* LaunchScreen.storyboard */; };
+		AFEF4B071D26B0D300874FD2 /* FindToiToiController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEF4B061D26B0D300874FD2 /* FindToiToiController.swift */; };
+		AFEF4B091D26B0EE00874FD2 /* BewertungsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEF4B081D26B0EE00874FD2 /* BewertungsController.swift */; };
+		AFEF4B0B1D26B10300874FD2 /* AddController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEF4B0A1D26B10300874FD2 /* AddController.swift */; };
+		AFEF4B0D1D26B86400874FD2 /* ToiToisClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEF4B0C1D26B86400874FD2 /* ToiToisClass.swift */; };
+		AFEF4B0F1D26BF0300874FD2 /* BerlinBus100TTeaching.gpx in Resources */ = {isa = PBXBuildFile; fileRef = AFEF4B0E1D26BF0300874FD2 /* BerlinBus100TTeaching.gpx */; };
+		AFEF4B111D26C14900874FD2 /* ToiToiWegpunkt.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEF4B101D26C14900874FD2 /* ToiToiWegpunkt.swift */; };
+		AFEFD2661D2E4B5700130F76 /* ToiToiDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEFD2651D2E4B5700130F76 /* ToiToiDetailController.swift */; };
+		AFEFD2681D2E585F00130F76 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEFD2671D2E585F00130F76 /* RatingControl.swift */; };
+		AFEFD26A1D2EAB4B00130F76 /* ToiToiTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEFD2691D2EAB4B00130F76 /* ToiToiTableViewCell.swift */; };
+		AFEFD26C1D2EAFAA00130F76 /* ToiToiTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEFD26B1D2EAFAA00130F76 /* ToiToiTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AFEF4AEF1D26A78400874FD2 /* FindMyToiToi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindMyToiToi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFEF4AF21D26A78400874FD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AFEF4AF41D26A78400874FD2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AFEF4AF71D26A78400874FD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AFEF4AF91D26A78400874FD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFEF4AFC1D26A78400874FD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AFEF4AFE1D26A78400874FD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFEF4B061D26B0D300874FD2 /* FindToiToiController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindToiToiController.swift; sourceTree = "<group>"; };
+		AFEF4B081D26B0EE00874FD2 /* BewertungsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BewertungsController.swift; sourceTree = "<group>"; };
+		AFEF4B0A1D26B10300874FD2 /* AddController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddController.swift; sourceTree = "<group>"; };
+		AFEF4B0C1D26B86400874FD2 /* ToiToisClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToiToisClass.swift; sourceTree = "<group>"; };
+		AFEF4B0E1D26BF0300874FD2 /* BerlinBus100TTeaching.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = BerlinBus100TTeaching.gpx; path = ../../../Downloads/BerlinBus100TTeaching.gpx; sourceTree = "<group>"; };
+		AFEF4B101D26C14900874FD2 /* ToiToiWegpunkt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToiToiWegpunkt.swift; sourceTree = "<group>"; };
+		AFEFD2651D2E4B5700130F76 /* ToiToiDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToiToiDetailController.swift; sourceTree = "<group>"; };
+		AFEFD2671D2E585F00130F76 /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		AFEFD2691D2EAB4B00130F76 /* ToiToiTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToiToiTableViewCell.swift; sourceTree = "<group>"; };
+		AFEFD26B1D2EAFAA00130F76 /* ToiToiTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToiToiTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFEF4AEC1D26A78400874FD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFEF4AE61D26A78400874FD2 = {
+			isa = PBXGroup;
+			children = (
+				AFEF4B0E1D26BF0300874FD2 /* BerlinBus100TTeaching.gpx */,
+				AFEF4AF11D26A78400874FD2 /* FindMyToiToi */,
+				AFEF4AF01D26A78400874FD2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFEF4AF01D26A78400874FD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFEF4AEF1D26A78400874FD2 /* FindMyToiToi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFEF4AF11D26A78400874FD2 /* FindMyToiToi */ = {
+			isa = PBXGroup;
+			children = (
+				AFEF4AF21D26A78400874FD2 /* AppDelegate.swift */,
+				AFEF4AF41D26A78400874FD2 /* ViewController.swift */,
+				AFEF4AF61D26A78400874FD2 /* Main.storyboard */,
+				AFEFD2691D2EAB4B00130F76 /* ToiToiTableViewCell.swift */,
+				AFEFD2671D2E585F00130F76 /* RatingControl.swift */,
+				AFEF4AF91D26A78400874FD2 /* Assets.xcassets */,
+				AFEFD26B1D2EAFAA00130F76 /* ToiToiTableViewController.swift */,
+				AFEF4AFB1D26A78400874FD2 /* LaunchScreen.storyboard */,
+				AFEF4AFE1D26A78400874FD2 /* Info.plist */,
+				AFEF4B061D26B0D300874FD2 /* FindToiToiController.swift */,
+				AFEFD2651D2E4B5700130F76 /* ToiToiDetailController.swift */,
+				AFEF4B081D26B0EE00874FD2 /* BewertungsController.swift */,
+				AFEF4B0A1D26B10300874FD2 /* AddController.swift */,
+				AFEF4B0C1D26B86400874FD2 /* ToiToisClass.swift */,
+				AFEF4B101D26C14900874FD2 /* ToiToiWegpunkt.swift */,
+			);
+			path = FindMyToiToi;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFEF4AEE1D26A78400874FD2 /* FindMyToiToi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFEF4B011D26A78400874FD2 /* Build configuration list for PBXNativeTarget "FindMyToiToi" */;
+			buildPhases = (
+				AFEF4AEB1D26A78400874FD2 /* Sources */,
+				AFEF4AEC1D26A78400874FD2 /* Frameworks */,
+				AFEF4AED1D26A78400874FD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FindMyToiToi;
+			productName = FindMyToiToi;
+			productReference = AFEF4AEF1D26A78400874FD2 /* FindMyToiToi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFEF4AE71D26A78400874FD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "de.beuth-hochschule";
+				TargetAttributes = {
+					AFEF4AEE1D26A78400874FD2 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = BHMZ32568G;
+					};
+				};
+			};
+			buildConfigurationList = AFEF4AEA1D26A78400874FD2 /* Build configuration list for PBXProject "FindMyToiToi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFEF4AE61D26A78400874FD2;
+			productRefGroup = AFEF4AF01D26A78400874FD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFEF4AEE1D26A78400874FD2 /* FindMyToiToi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFEF4AED1D26A78400874FD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFEF4B0F1D26BF0300874FD2 /* BerlinBus100TTeaching.gpx in Resources */,
+				AFEF4AFD1D26A78400874FD2 /* LaunchScreen.storyboard in Resources */,
+				AFEF4AFA1D26A78400874FD2 /* Assets.xcassets in Resources */,
+				AFEF4AF81D26A78400874FD2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFEF4AEB1D26A78400874FD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFEF4B0D1D26B86400874FD2 /* ToiToisClass.swift in Sources */,
+				AFEF4B111D26C14900874FD2 /* ToiToiWegpunkt.swift in Sources */,
+				AFEF4AF51D26A78400874FD2 /* ViewController.swift in Sources */,
+				AFEF4B0B1D26B10300874FD2 /* AddController.swift in Sources */,
+				AFEFD2681D2E585F00130F76 /* RatingControl.swift in Sources */,
+				AFEFD26C1D2EAFAA00130F76 /* ToiToiTableViewController.swift in Sources */,
+				AFEF4B071D26B0D300874FD2 /* FindToiToiController.swift in Sources */,
+				AFEF4AF31D26A78400874FD2 /* AppDelegate.swift in Sources */,
+				AFEFD2661D2E4B5700130F76 /* ToiToiDetailController.swift in Sources */,
+				AFEF4B091D26B0EE00874FD2 /* BewertungsController.swift in Sources */,
+				AFEFD26A1D2EAB4B00130F76 /* ToiToiTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AFEF4AF61D26A78400874FD2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFEF4AF71D26A78400874FD2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AFEF4AFB1D26A78400874FD2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFEF4AFC1D26A78400874FD2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFEF4AFF1D26A78400874FD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AFEF4B001D26A78400874FD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFEF4B021D26A78400874FD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = FindMyToiToi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.beuth-hochschule.FindMyToiToi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		AFEF4B031D26A78400874FD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = FindMyToiToi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.beuth-hochschule.FindMyToiToi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFEF4AEA1D26A78400874FD2 /* Build configuration list for PBXProject "FindMyToiToi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFEF4AFF1D26A78400874FD2 /* Debug */,
+				AFEF4B001D26A78400874FD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFEF4B011D26A78400874FD2 /* Build configuration list for PBXNativeTarget "FindMyToiToi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFEF4B021D26A78400874FD2 /* Debug */,
+				AFEF4B031D26A78400874FD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFEF4AE71D26A78400874FD2 /* Project object */;
+}
